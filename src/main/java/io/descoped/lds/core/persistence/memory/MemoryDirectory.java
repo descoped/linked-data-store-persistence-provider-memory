@@ -1,9 +1,9 @@
-package no.ssb.lds.core.persistence.memory;
+package io.descoped.lds.core.persistence.memory;
 
 import com.apple.foundationdb.subspace.Subspace;
 import com.apple.foundationdb.tuple.Tuple;
-import no.ssb.lds.api.persistence.PersistenceException;
-import no.ssb.lds.core.persistence.foundationdb.FoundationDBDirectory;
+import io.descoped.lds.api.persistence.PersistenceException;
+import io.descoped.lds.core.persistence.foundationdb.FoundationDBDirectory;
 
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ConcurrentHashMap;

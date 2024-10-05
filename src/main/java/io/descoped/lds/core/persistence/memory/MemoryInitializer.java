@@ -1,11 +1,11 @@
-package no.ssb.lds.core.persistence.memory;
+package io.descoped.lds.core.persistence.memory;
 
-import no.ssb.lds.api.persistence.PersistenceInitializer;
-import no.ssb.lds.api.persistence.ProviderName;
-import no.ssb.lds.api.persistence.TransactionFactory;
-import no.ssb.lds.api.persistence.reactivex.RxJsonPersistence;
-import no.ssb.lds.api.persistence.reactivex.RxJsonPersistenceBridge;
-import no.ssb.lds.core.persistence.foundationdb.FoundationDBDirectory;
+import io.descoped.lds.api.persistence.PersistenceInitializer;
+import io.descoped.lds.api.persistence.ProviderName;
+import io.descoped.lds.api.persistence.TransactionFactory;
+import io.descoped.lds.api.persistence.reactivex.RxJsonPersistence;
+import io.descoped.lds.api.persistence.reactivex.RxJsonPersistenceBridge;
+import io.descoped.lds.core.persistence.foundationdb.FoundationDBDirectory;
 
 import java.util.Map;
 import java.util.Set;

@@ -1,15 +1,15 @@
-package no.ssb.lds.core.persistence.memory.reactivestreams;
+package io.descoped.lds.core.persistence.memory.reactivestreams;
 
 import com.apple.foundationdb.KeySelector;
 import com.apple.foundationdb.KeyValue;
 import com.apple.foundationdb.StreamingMode;
 import com.apple.foundationdb.async.AsyncIterable;
 import com.apple.foundationdb.async.AsyncIterator;
-import no.ssb.lds.api.persistence.reactivex.RxJsonPersistence;
-import no.ssb.lds.core.persistence.foundationdb.AsyncIterablePublisher;
-import no.ssb.lds.core.persistence.memory.MemoryInitializer;
-import no.ssb.lds.core.persistence.memory.MemoryRxPersistence;
-import no.ssb.lds.core.persistence.memory.MemoryTransaction;
+import io.descoped.lds.api.persistence.reactivex.RxJsonPersistence;
+import io.descoped.lds.core.persistence.foundationdb.AsyncIterablePublisher;
+import io.descoped.lds.core.persistence.memory.MemoryInitializer;
+import io.descoped.lds.core.persistence.memory.MemoryRxPersistence;
+import io.descoped.lds.core.persistence.memory.MemoryTransaction;
 import org.reactivestreams.Publisher;
 import org.reactivestreams.tck.PublisherVerification;
 import org.reactivestreams.tck.TestEnvironment;

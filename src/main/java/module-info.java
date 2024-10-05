@@ -1,9 +1,9 @@
-import no.ssb.lds.api.persistence.PersistenceInitializer;
-import no.ssb.lds.core.persistence.memory.MemoryInitializer;
+import io.descoped.lds.api.persistence.PersistenceInitializer;
+import io.descoped.lds.core.persistence.memory.MemoryInitializer;
 
-module no.ssb.lds.persistence.memory {
-    requires no.ssb.lds.persistence.api;
-    requires no.ssb.lds.persistence.foundationdb;
+module io.descoped.lds.persistence.memory {
+    requires io.descoped.lds.persistence.api;
+    requires io.descoped.lds.persistence.foundationdb;
     requires fdb.java;
 
     provides PersistenceInitializer with MemoryInitializer;

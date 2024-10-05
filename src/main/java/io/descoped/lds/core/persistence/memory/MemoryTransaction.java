@@ -1,4 +1,4 @@
-package no.ssb.lds.core.persistence.memory;
+package io.descoped.lds.core.persistence.memory;
 
 import com.apple.foundationdb.KeySelector;
 import com.apple.foundationdb.KeyValue;
@@ -7,8 +7,8 @@ import com.apple.foundationdb.StreamingMode;
 import com.apple.foundationdb.async.AsyncIterable;
 import com.apple.foundationdb.subspace.Subspace;
 import com.apple.foundationdb.tuple.Tuple;
-import no.ssb.lds.api.persistence.TransactionStatistics;
-import no.ssb.lds.core.persistence.foundationdb.OrderedKeyValueTransaction;
+import io.descoped.lds.api.persistence.TransactionStatistics;
+import io.descoped.lds.core.persistence.foundationdb.OrderedKeyValueTransaction;
 
 import java.nio.charset.StandardCharsets;
 import java.util.Arrays;

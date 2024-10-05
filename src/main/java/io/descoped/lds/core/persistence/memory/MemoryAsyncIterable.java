@@ -1,4 +1,4 @@
-package no.ssb.lds.core.persistence.memory;
+package io.descoped.lds.core.persistence.memory;
 
 import com.apple.foundationdb.KeyValue;
 import com.apple.foundationdb.async.AsyncIterable;
